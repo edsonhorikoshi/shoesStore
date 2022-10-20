@@ -6,7 +6,7 @@
 
 *{
     margin: 0;
-    padding: 0 0.02rem 0 0.02rem;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,6 +19,7 @@ header{
     font-size: 2.4rem;
     align-items: center;
     padding-right: 2rem;
+    font-weight: 600;
 }
 .topoMenu{
     margin: 0;
@@ -97,11 +98,18 @@ h1{
     font-family: 'Open Sans';
     font-size: 1.6rem;
     background-color: #FFFFFF;
+    width: 258px;
 }
 .cardOff p{
-    margin-left: 0.5rem;
+    margin-left: 0.7rem;
 }
+ .topo{
+    padding-top: 0.5rem;
+ }
 
+ .baixo{
+    padding-bottom: 2rem;
+ }
 
 .secSandalia{
     display: flex;
