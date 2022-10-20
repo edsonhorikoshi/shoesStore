@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0 0.02rem 0 0.02rem;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: #777777;
+    font-size: 2.4rem;
+    align-items: center;
+    padding-right: 2rem;
+}
+.topoMenu{
+    margin: 0;
+    color: #777777;
+    padding-left: 3rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* MAIN */
+/* -------------------------------------------------------------------------- */
+#banner{
+
+}
+
+.linkBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 102%;
+}
+
+main section a img{
+    width: 100%;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    padding: 5rem;
+    font-family: 'Open Sans';
+    font-size: 6rem;
+    color: #000000;
+    box-sizing: border-box;
+}
+.fotos1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10rem 5rem 10rem;
+}
+.fotos1 div a img{
+    height: 100%;
+}
+
+.anuncioSection{
+    background-color: #C2185B;
+}
+
+#anuncioDesconto{
+    padding: 5rem;
+    font-family: 'Open Sans';
+    font-size: 4.4rem;
+    color: #FFFFFF;
+    box-sizing: border-box;
+
+
+}
+
+.off{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 15rem 5rem 15rem;
+    background-color: #C2185B;
+}
+.cardOff{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 1.6rem;
+    background-color: #FFFFFF;
+}
+.cardOff p{
+    margin-left: 0.5rem;
+}
+
+
+.secSandalia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15rem 15rem 5rem 15rem;
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 3.9rem;
+    width:min-content;
+}
+
+.divSandalia a img{
+    width: auto;
+}
+
+button{
+    width: 40.3rem;
+    text-decoration: none;
+    font-size: 3.9rem;
+    background-color: #C2185B;
+    border-color: #C2185B;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+footer{
+    padding: 10rem;
+    background-color: #C2185B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+}
+
+#lastSec{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10rem;
+}
+
+footer section div a{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+
+
+#lorem{
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    width: 34%;
+
+}
+
+footer section img{
+    width: 22.3rem;
+}
